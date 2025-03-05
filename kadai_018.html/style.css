@@ -39,23 +39,22 @@
   left: 500px;
 }
 #bottom{
+  display: block;
   width: 800px;
   height: 300px;
-  position: relative;
+  margin: 0 auto;
   background-color: #87ceeb;
-  margin: auto;
 }
 #bottom-child01,#bottom-child02,#bottom-child03{
  width: 400px;
  height: 100px;
  background-color: #e5dcf0;
- position: absolute;
 }
 #bottom-child02{
-  top: 100px;
+  position: relative;
   left: 200px;
 }
 #bottom-child03{
-  top: 200px;
+ position: relative;
  left: 400px;
 }
